@@ -30,7 +30,7 @@ body {
     .title {
       font-size: 2rem;
       font-weight: 500;
-      margin-left: -80px;
+      margin-left: 0px;
       width: 20%;
     }
     .scrollbar select{
@@ -45,8 +45,11 @@ body {
       .cases {
         
         li {
-          padding: 30px;
+          padding: 10px;
           display: inline;
+          div {
+            width: 3px;
+          }
         }
       }
     }
